@@ -14,7 +14,8 @@
     "data:download": "tsx src/scripts/download-scifact.ts",
     "db:migrate": "tsx src/scripts/migrate.ts",
     "data:import": "tsx src/scripts/import-scifact.ts",
-    "embed": "tsx src/scripts/embed-documents.ts"
+    "embed": "tsx src/scripts/embed-documents.ts",
+    "benchmark": "tsx src/scripts/benchmark.ts"
   },
   "dependencies": {
     "@huggingface/transformers": "^4.3.2",
